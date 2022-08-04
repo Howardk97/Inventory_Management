@@ -6,20 +6,30 @@
 </head>
 <body>
  <script type ="text/x-handlebars-template" id="template">
- <h1>{{toUpperCase title}}</h1>
+ <h1>{{title}}</h1>
  <ol>
     {{#each list}}
-    <li> {{this.name}} </li>
+    <li> {{this.Employees}} </li>
     {{/each}}
  </ol>
- <p>{{footer</p>
+ <p>{{footer}}</p>
  </script>
  <div id="output">
 
  </div>
+  <ol>
+    {{#each list}}
+    <li> {{this.Employees}} </li>
+    {{/each}}
+ </ol>
+ <p>{{footer}}</p>
+ </script>
+ <div id="output">
  <button onclick="fill_template()">
-    Generate Table
+    Generate Employee Table
  </button>
- 
+  <button onclick="fill_template()">
+   Items Avaialable Table
+  </button>
 </body>
 </html>

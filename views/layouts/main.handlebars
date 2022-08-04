@@ -1,18 +1,28 @@
-{{!-- this is the baseline handlebars template that handles the html that all the handlebars will render with; should include html head, css links, etc. --}}
-<!DOCTYPE html>
-<html lang="en">
-
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Inventory Management</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <title>{{title}}</title>
+  <link rel="icon" href="../../public/assets/images/icons8-falcon-50.png">
+  <link rel="stylesheet" href="../../public/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="/css/materialize.css">
+
 </head>
 
  <body>
-  <nav>
+  <nav class="nav has-shadow">
     <div class="nav-wrapper">
+      <a class="nav-item" href="/"
+      <div class="nav-center nav-menu">
+
+        <a class="nav-item is-tab" href="#"></a>
+        Links
+            <div class="nav-center nav-menu">
+        <a class="nav-item is-tab" href="#"></a>
+        Links
+            <div class="nav-center nav-menu">
+        <a class="nav-item is-tab" href="#">
+        Links
+        </a>
+      </div>
       {{{body}}}
       <a href="#" class="brand-logo">Logo | Inventory Management</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
